@@ -9,7 +9,7 @@ public class ConnectDB {
             
             // user
             String user = "root";
-            String password = "mysql@123";
+            String password = "12Admin@";
             String url = "jdbc:mysql://localhost:3306/student_manage";
 
             con = DriverManager.getConnection(url, user, password);
